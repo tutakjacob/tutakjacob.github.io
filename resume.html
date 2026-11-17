@@ -3,22 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob Tutak - Experience</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; background: #fff; }
-        nav { margin-bottom: 30px; }
-        nav a { margin-right: 15px; text-decoration: none; font-weight: bold; color: #0366d6; }
-        nav a.active { color: #24292e; border-bottom: 2px solid #24292e; padding-bottom: 3px; }
-        header { border-bottom: 1px solid #eaecef; padding-bottom: 15px; margin-bottom: 20px; }
-        h1 { margin: 0 0 5px 0; }
-        h2 { border-bottom: 1px solid #eaecef; padding-bottom: 5px; margin-top: 30px; color: #24292e; font-size: 1.3em; }
-        .job-title { font-weight: bold; color: #24292e; margin-top: 20px; margin-bottom: 2px; }
-        .job-company { color: #586069; font-style: italic; margin-bottom: 10px; }
-        ul { margin-top: 5px; padding-left: 20px; }
-        li { margin-bottom: 6px; }
-        .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-        @media (max-width: 600px) { .skills-grid { grid-template-columns: 1fr; } }
-    </style>
+    <title>Jacob Tutak - Resume</title>
+    <!-- external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -28,73 +15,75 @@
 
     <header>
         <h1>IT Systems Administrator & Infrastructure Operations Specialist</h1>
-        <p><strong>Location:</strong> Davison, MI | <strong>Email:</strong> <a href="mailto:jtutak@proton.me">Email Me</a></p>
+        <p class="tagline"><strong>Location:</strong> Davison, MI | <strong>Email:</strong> <a href="mailto:jtutak@proton.me">Email Me</a></p>
     </header>
 
-    <section>
-        <h2>Professional Summary</h2>
-        <p>IT Infrastructure Operations Coordinator with a proven track record of streamlining enterprise deployments and system upgrades. Focused on minimizing downtime and operational risk through comprehensive documentation and cross-functional alignment, consistently delivering projects on time and within scope.</p>
-    </section>
+    <main>
+        <div class="card">
+            <h2>Professional Summary</h2>
+            <p>IT Infrastructure Operations Coordinator with a proven track record of streamlining enterprise deployments and system upgrades. Focused on minimizing downtime and operational risk through comprehensive documentation and cross-functional alignment, consistently delivering projects on time and within scope.</p>
+        </div>
 
-    <section>
-        <h2>Work Experience</h2>
-        
-        <div class="job-title">IT Infrastructure Operations Coordinator</div>
-        <div class="job-company">Fernco, Inc — Davison, MI | 2021 – Present</div>
-        <ul>
-            <li>Orchestrated end-to-end infrastructure "go-live" transitions and system upgrades, ensuring zero-day readiness through scheduling and cross-functional stakeholder alignment.</li>
-            <li>Facilitated comprehensive project post-mortems following major deployments to identify technical bottlenecks and implement process improvements.</li>
-            <li>Managed configuration and deployment of enterprise hardware and software assets.</li>
-            <li>Managed technical troubleshooting queues, resolving complex hardware and software issues for both on-site and remote end-users.</li>
-            <li>Maintained technical documentation and SOPs for system installations and troubleshooting.</li>
-            <li>Collaborated with partners to oversee hardware life-cycle management, from procurement and initial imaging to decommissioning and asset recovery.</li>
-        </ul>
+        <div class="card">
+            <h2>Work Experience</h2>
+            
+            <div class="job-title">IT Infrastructure Operations Coordinator</div>
+            <div class="job-company">Fernco, Inc — Davison, MI | 2021 – Present</div>
+            <ul>
+                <li>Orchestrated end-to-end infrastructure "go-live" transitions and system upgrades, ensuring zero-day readiness through scheduling and cross-functional stakeholder alignment.</li>
+                <li>Facilitated comprehensive project post-mortems following major deployments to identify technical bottlenecks and implement process improvements.</li>
+                <li>Managed configuration and deployment of enterprise hardware and software assets.</li>
+                <li>Managed technical troubleshooting queues, resolving complex hardware and software issues for both on-site and remote end-users.</li>
+                <li>Maintained technical documentation and SOPs for system installations and troubleshooting.</li>
+                <li>Collaborated with partners to oversee hardware life-cycle management, from procurement and initial imaging to decommissioning and asset recovery.</li>
+            </ul>
 
-        <div class="job-title">IT Business Application Software Support</div>
-        <div class="job-company">Fernco, Inc — Davison, MI | 2016 – 2021</div>
-        <ul>
-            <li>Led cross-functional requirement-gathering sessions with internal and external stakeholders to standardize and streamline enterprise application workflows across global locations.</li>
-            <li>Facilitated "current-state vs. future-state" workshops to evaluate software alternatives and drive digital transformation initiatives for key business applications.</li>
-            <li>Orchestrated pilot testing programs (User Acceptance Testing) to identify performance bottlenecks, mitigating deployment risks and defining comprehensive end-user training strategies.</li>
-            <li>Authored an extensive library of technical job aids, work instructions, and SOPs, conducting on-the-job training to accelerate software adoption for both on-site and remote teams.</li>
-            <li>Managed high-tier incident resolution through the enterprise ticketing system, ensuring consistent communication and maintaining project transparency with executive leadership.</li>
-            <li>Served as a technical liaison between technical staff and business units, providing regular project status updates and ensuring alignment with organizational goals.</li>
-        </ul>
+            <div class="job-title">IT Business Application Software Support</div>
+            <div class="job-company">Fernco, Inc — Davison, MI | 2016 – 2021</div>
+            <ul>
+                <li>Led cross-functional requirement-gathering sessions with internal and external stakeholders to standardize and streamline enterprise application workflows across global locations.</li>
+                <li>Facilitated "current-state vs. future-state" workshops to evaluate software alternatives and drive digital transformation initiatives for key business applications.</li>
+                <li>Orchestrated pilot testing programs (User Acceptance Testing) to identify performance bottlenecks, mitigating deployment risks and defining comprehensive end-user training strategies.</li>
+                <li>Authored an extensive library of technical job aids, work instructions, and SOPs, conducting on-the-job training to accelerate software adoption for both on-site and remote teams.</li>
+                <li>Managed high-tier incident resolution through the enterprise ticketing system, ensuring consistent communication and maintaining project transparency with executive leadership.</li>
+                <li>Served as a technical liaison between technical staff and business units, providing regular project status updates and ensuring alignment with organizational goals.</li>
+            </ul>
 
-        <div class="job-title">PC & Server Support</div>
-        <div class="job-company">Fernco, Inc — Davison, MI | 2015 – 2016</div>
-        <ul>
-            <li>Installed and optimized workstation hardware/software across all company locations, ensuring high system availability and minimal disruption to daily operations.</li>
-            <li>Managed user lifecycle operations, including Active Directory profile management, Exchange/Email configuration, and ShoreTel telecommunications setup.</li>
-            <li>Maintained technical asset tracking via KBOX and oversaw software license compliance, procurement, and retraction for enterprise applications.</li>
-            <li>Executed system-wide upgrades and reimaging protocols for hardware decommissioning and reissuance, maintaining strict data security and formatting standards.</li>
-            <li>Resolved hardware and software escalations through the ticketing system, consistently meeting SLA requirements for mission-critical departments.</li>
-        </ul>
-    </section>
+            <div class="job-title">PC & Server Support</div>
+            <div class="job-company">Fernco, Inc — Davison, MI | 2015 – 2016</div>
+            <ul>
+                <li>Installed and optimized workstation hardware/software across all company locations, ensuring high system availability and minimal disruption to daily operations.</li>
+                <li>Managed user lifecycle operations, including Active Directory profile management, Exchange/Email configuration, and ShoreTel telecommunications setup.</li>
+                <li>Maintained technical asset tracking via KBOX and oversaw software license compliance, procurement, and retraction for enterprise applications.</li>
+                <li>Executed system-wide upgrades and reimaging protocols for hardware decommissioning and reissuance, maintaining strict data security and formatting standards.</li>
+                <li>Resolved hardware and software escalations through the ticketing system, consistently meeting SLA requirements for mission-critical departments.</li>
+            </ul>
+        </div>
 
-    <section>
-        <h2>Technical Skills & Specializations</h2>
-        <ul>
-            <li><strong>Infrastructure (Hardware & Software):</strong> Technical installation, configuration, and troubleshooting of PC hardware, enterprise software, and peripheral systems.</li>
-            <li><strong>OS & Deployment:</strong> Operating system deployments, patch management, and automated software installations.</li>
-            <li><strong>Remote & Networking Operations:</strong> High-level technical support via remote desktop tools, virtual environment management, Active Directory, and ShoreTel telecom.</li>
-            <li><strong>Documentation & Process:</strong> Authoring technical SOPs, system diagrams, deployment checklists, and job aids.</li>
-            <li><strong>Systems Security:</strong> Patch compliance and MTA-certified security protocols.</li>
-            <li><strong>Operations & Project Coordination:</strong> Managing high-volume troubleshooting queues, SLA compliance, independent execution, and end-user relations.</li>
-        </ul>
-    </section>
+        <div class="card">
+            <h2>Technical Skills & Specializations</h2>
+            <ul>
+                <li><strong>Infrastructure (Hardware & Software):</strong> Technical installation, configuration, and troubleshooting of PC hardware, enterprise software, and peripheral systems.</li>
+                <li><strong>OS & Deployment:</strong> Operating system deployments, patch management, and automated software installations.</li>
+                <li><strong>Remote & Networking Operations:</strong> High-level technical support via remote desktop tools, virtual environment management, Active Directory, and ShoreTel telecom.</li>
+                <li><strong>Documentation & Process:</strong> Authoring technical SOPs, system diagrams, deployment checklists, and job aids.</li>
+                <li><strong>Systems Security:</strong> Patch compliance and MTA-certified security protocols.</li>
+                <li><strong>Operations & Project Coordination:</strong> Managing high-volume troubleshooting queues, SLA compliance, independent execution, and end-user relations.</li>
+            </ul>
+        </div>
 
-    <section>
-        <h2>Education & Certifications</h2>
-        <p><strong>Computer Network Engineering</strong> — Mott Community College<br>
-        <em>Honors: Phi Theta Kappa</em></p>
-        
-        <p><strong>Certifications:</strong></p>
-        <ul>
-            <li>CompTIA A+ ce</li>
-            <li>MTA 98-367: Security Fundamentals</li>
-            <li>Google IT Support Certificate</li>
-        </ul>
-    </section>
+        <div class="card">
+            <h2>Education & Certifications</h2>
+            <p><strong>Computer Network Engineering</strong> — Mott Community College<br>
+            <em>Honors: Phi Theta Kappa</em></p>
+            
+            <p><strong>Certifications:</strong></p>
+            <ul>
+                <li>CompTIA A+ ce</li>
+                <li>MTA 98-367: Security Fundamentals</li>
+                <li>Google IT Support Certificate</li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
